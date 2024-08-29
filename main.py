@@ -1,5 +1,7 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QHBoxLayout, QPushButton, QVBoxLayout, QGridLayout
+from PyQt6.QtWidgets import (
+    QApplication, QLabel, QWidget, QHBoxLayout, QPushButton, QVBoxLayout, QGridLayout, QFormLayout, QLineEdit
+)
 
 
 def hello_world():
@@ -65,4 +67,22 @@ def grid_layout():
     sys.exit(app.exec())
 
 
-grid_layout()
+def form_layout():
+    app = QApplication([])
+    window = QWidget()
+    window.setWindowTitle("QFormLayout")
+
+    layout = QFormLayout()
+    layout.addRow("Name:", QLineEdit())
+    layout.addRow("Age:", QLineEdit())
+    layout.addRow("Job:", QLineEdit())
+    layout.addRow("Hobbies:", QLineEdit())
+    window.setLayout(layout)
+
+    window.show()
+    sys.exit(app.exec())
+
+
+form_layout()
+
+# https://realpython.com/python-pyqt-gui-calculator/#dialogs
