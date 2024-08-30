@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="171d66f1-499b-4d5c-bf6e-5814d1150893" name="Changes" comment="form layout">
-      <change afterPath="$PROJECT_DIR$/dialog.py" afterDir="false" />
+    <list default="true" id="171d66f1-499b-4d5c-bf6e-5814d1150893" name="Changes" comment="slots, events, basic calc setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycalc.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycalc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.dialog.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pycalc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.signals_slots.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
@@ -107,12 +111,30 @@
       <option name="project" value="LOCAL" />
       <updated>1724914255884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dialog">
+      <option name="closed" value="true" />
+      <created>1724916585696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724916585696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="slots, events, basic calc setup">
+      <option name="closed" value="true" />
+      <created>1725024298055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725024298055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="form layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="form layout" />
+    <MESSAGE value="dialog" />
+    <MESSAGE value="slots, events, basic calc setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="slots, events, basic calc setup" />
   </component>
 </project>
