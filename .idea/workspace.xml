@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="171d66f1-499b-4d5c-bf6e-5814d1150893" name="Changes" comment="form layout">
-      <change afterPath="$PROJECT_DIR$/dialog.py" afterDir="false" />
+    <list default="true" id="171d66f1-499b-4d5c-bf6e-5814d1150893" name="Changes" comment="dialog">
+      <change afterPath="$PROJECT_DIR$/main_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycalc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signals_slots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.dialog.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_window.executor": "Run",
+    "Python.pycalc.executor": "Run",
+    "Python.signals_slots.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PyQtPlayground" />
@@ -107,12 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724914255884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dialog">
+      <option name="closed" value="true" />
+      <created>1724916585696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724916585696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="form layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="form layout" />
+    <MESSAGE value="dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="dialog" />
   </component>
 </project>
